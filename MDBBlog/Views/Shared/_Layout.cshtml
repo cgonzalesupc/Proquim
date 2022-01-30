@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MDB Blog</title>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/a7527a0291.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    <!--Main Navigation-->
+    <header style="height:20px;">
+
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar" style="box-shadow:0 0 0;">
+            <div class="container">
+
+                <!-- Brand -->
+                <img class="mb-3 mx-auto" src="~/Imagenes/SliderFooter2/Mesa de trabajo 5.png"
+                     alt="Generic placeholder image" style="width: 250px;height:80px;">
+
+
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+                    </ul>
+
+                    <!-- Right -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect" href="/Home/Index">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="/Home/About">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="/Home/Category">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="/Home/Contact">Contactanos</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+    </header>
+    <!--Main Navigation-->
+    <!--Main layout-->
+    <main class="mt-5 pt-5">
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+    </main>
+    <!--Main layout-->
+    <!--Footer-->
+    <footer class="page-footer text-center font-small primary-color darken-2 mt-4 wow fadeIn">
+        <div class="row">
+            <div class="col-md-4">
+                <h3> EQUIPOS</h3>
+                <ul class="oceanwp-custom-links" style="display:inline-block;position:relative;font-size:13px;text-align:left;list-style:none;">
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="#">POTABILIZADORAS</a></li>
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="#">OSMOSIS INVERSA</a></li>
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="#">ABLANDADORES</a></li>
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="#">OZONIZADORES</a></li>
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="#">ACCESORIOS Y MÁS</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-left">
+                <h3> MAPA DE SITIO</h3>
+                <ul class="mb-3" style="display:inline-block;position:relative;font-size:13px;list-style:none;">
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="/Home/Index">INICIO</a></li>
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="/Home/About">NOSOTROS</a></li>
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="/Home/Category">PRODUCTO</a></li>
+                    <li class="pt-1"><i class="fa fa-angle-right"></i> <a class="pl-2" href="/Home/Contact">CONTACTANOS</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3> CONTÁCTO</h3>
+                <ul style="display:inline-block;width:100%;margin:0,0,20px;font-size:13px;list-style:none;text-align:left">
+                    <li>
+                        <i class="fa fa-location-arrow pb-3" aria-label="true"> </i>
+                        <div class="pl-3" style="display:inline-block;">
+                            <span style="font-weight:700;"> Dirección:</span>
+                            <p> CALLE JORGE CHAVEZ NRO.160 - COMAS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone" aria-label="true"> </i>
+                        <div class="pl-3" style="display:inline-block;">
+                            <span style="font-weight:700;"> Teléfono:</span>
+                            <p> 927369581</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope-o" aria-label="true"> </i>
+                        <div class="pl-3" style="display:inline-block;">
+                            <span style="font-weight:700;"> Correo:</span>
+                            <p> proquim.eirl@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <!-- Social icons -->
+        <div class="pb-4">
+            <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+                <i class="fa fa-facebook-official mr-3 fa-2x" aria-label="true"></i>
+            </a>
+
+            <a href="https://twitter.com/MDBootstrap" target="_blank">
+                <i class="fa fa-whatsapp mr-3 fa-2x" aria-label="true"></i>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+                <i class="fa fa-envelope-o mr-3 fa-2x" aria-label="true"></i>
+            </a>
+
+        </div>
+        <!-- Social icons -->
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+            PROQUIM-2022
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+        $(document).ready(function () {
+            console.log(location.pathname);
+            $(".nav-item").removeClass('active');
+            if (location.pathname == "/") {
+                $('a[href$="' + "/Home/Index" + '"]').parent().addClass('active');
+            } else {
+                $('a[href$="' + location.pathname + '"]').parent().addClass('active');
+            }
+        });
+    </script>
+</body>
+</html>
