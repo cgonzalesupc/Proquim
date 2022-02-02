@@ -126,6 +126,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Productos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -177,6 +178,48 @@
     <Content Include="Imagenes\NuestrosProductos\PROTECTORES Y ACONDICIONADORES.jpg" />
     <Content Include="Imagenes\NuestrosProductos\SOLVENTES Y DESENGRASANTES.jpg" />
     <Content Include="Imagenes\NuestrosProductos\TRATAMIENTO DE AGUA DE CALDERO.jpg" />
+    <Content Include="Imagenes\Producto\3 CARBON ACTIVADO.jpg" />
+    <Content Include="Imagenes\Producto\3 HIPOCLORITO DE CALCIO.jpg" />
+    <Content Include="Imagenes\Producto\3 Sulfato DE ALUMINA TIPO A.png" />
+    <Content Include="Imagenes\Producto\3 ZEOLITA TURBIDEX.jpg" />
+    <Content Include="Imagenes\Producto\4 ANTRACITA.jpg" />
+    <Content Include="Imagenes\Producto\4 ARENA DE CUARZO.jpg" />
+    <Content Include="Imagenes\Producto\4 GRAVA DE CUARZO.png" />
+    <Content Include="Imagenes\Producto\BASE Y SOPORTE PARA FILTROS.jpg" />
+    <Content Include="Imagenes\Producto\BOMBA DE AGUA MULTIETAPA VERTICAL CNP.png" />
+    <Content Include="Imagenes\Producto\BOMBA DE REFUERZO PARA OSMOSIS – GOULDS.jpg" />
+    <Content Include="Imagenes\Producto\BOMBA PARA OSMOSIS 100 200 GPD.jpg" />
+    <Content Include="Imagenes\Producto\COMPARADOR DE CLORO.jpg" />
+    <Content Include="Imagenes\Producto\CONECTORES RÁPIDOS.jpg" />
+    <Content Include="Imagenes\Producto\EQUIPO ULTRAVIOLETA HIDROTEK.jpg" />
+    <Content Include="Imagenes\Producto\EQUIPOS ULTRAVIOLETA VIQUA.jpg" />
+    <Content Include="Imagenes\Producto\FILTRO DE CARBON ACTIVADO.jpg" />
+    <Content Include="Imagenes\Producto\FILTRO DE MULTIMEDIA.jpg" />
+    <Content Include="Imagenes\Producto\FILTROS CARTUCHOS DE CARBON ACTIVADO.jpg" />
+    <Content Include="Imagenes\Producto\FILTROS CARTUCHOS DE SEDIMENTO.jpg" />
+    <Content Include="Imagenes\Producto\FILTROS CARTUCHOS PLISADOS.png" />
+    <Content Include="Imagenes\Producto\FLUJOMETRO DE AGUA EN LINEA Y PAPEL.jpg" />
+    <Content Include="Imagenes\Producto\GENERADOR DE OZONO.jpg" />
+    <Content Include="Imagenes\Producto\INSTRUMENTOS DIGITALES.jpg" />
+    <Content Include="Imagenes\Producto\KITS PARA ANALISIS DE AGUA.jpg" />
+    <Content Include="Imagenes\Producto\MANGUERAS DE POLIETILENO.jpg" />
+    <Content Include="Imagenes\Producto\MANÓMETROS PARA AGUA DE GLICERINA.jpg" />
+    <Content Include="Imagenes\Producto\MEDIDOR DE CONDUCTIVIDAD CON MONITOR.jpg" />
+    <Content Include="Imagenes\Producto\MEMBRANA DE ÓSMOSIS HIDROTEK.jpg" />
+    <Content Include="Imagenes\Producto\MEMBRANA DE ÓSMOSIS TORAY.jpg" />
+    <Content Include="Imagenes\Producto\PASTILLAS DPD 1.jpg" />
+    <Content Include="Imagenes\Producto\PASTILLAS ROJO FENOL.jpg" />
+    <Content Include="Imagenes\Producto\PORTACARTUCHOS.jpg" />
+    <Content Include="Imagenes\Producto\PORTAMEMBRANAS ACERO INOXIDABLE.jpg" />
+    <Content Include="Imagenes\Producto\PORTAMEMBRANAS FRP.jpg" />
+    <Content Include="Imagenes\Producto\REACTIVOS QUIMICOS.jpg" />
+    <Content Include="Imagenes\Producto\TANQUES DE FIBRA DE VIDRIO.jpg" />
+    <Content Include="Imagenes\Producto\TEST DE CLORO LIBRE Y TOTAL  DPD.jpg" />
+    <Content Include="Imagenes\Producto\TIRAS REACTIVAS.jpg" />
+    <Content Include="Imagenes\Producto\TOBERAS O DISTRIBUIDORES.jpg" />
+    <Content Include="Imagenes\Producto\VÁLVULAS AUTOMÁTICAS PARA FILTROS.jpg" />
+    <Content Include="Imagenes\Producto\VÁLVULAS MANUALES PARA ABLANDADOR.png" />
+    <Content Include="Imagenes\Producto\VÁLVULAS MANUALES PARA FILTRO.png" />
     <Content Include="Imagenes\SliderFooter2\TRUWATER.png" />
     <Content Include="Imagenes\SliderFooter2\HIDROTEK.png" />
     <Content Include="Imagenes\SliderFooter2\Mesa de trabajo 11.png" />
@@ -190,13 +233,14 @@
     <Content Include="Imagenes\SliderFooter2\Mesa de trabajo 9.png" />
     <Content Include="Imagenes\SliderFooter\CALGON.jpg" />
     <Content Include="Imagenes\SliderFooter\HANNA.png" />
-    <Content Include="Imagenes\SliderFooter\HIDROTEK.jpg" />
-    <Content Include="Imagenes\SliderFooter\HYDRONIX.png" />
-    <Content Include="Imagenes\SliderFooter\lamotte-logo.jpg" />
+    <Content Include="Imagenes\SliderFooter\HIDRONIX.png" />
+    <Content Include="Imagenes\SliderFooter\HIDROTEK.png" />
+    <Content Include="Imagenes\SliderFooter\LAMOTTE.png" />
     <Content Include="Imagenes\SliderFooter\LEWATIT.jpg" />
-    <Content Include="Imagenes\SliderFooter\PENTAIR.jpg" />
+    <Content Include="Imagenes\SliderFooter\PENTAIR.png" />
     <Content Include="Imagenes\SliderFooter\TORAY.png" />
-    <Content Include="Imagenes\SliderFooter\TRUWATER.jpg" />
+    <Content Include="Imagenes\SliderFooter\TORAY2.png" />
+    <Content Include="Imagenes\SliderFooter\TRUWATER.png" />
     <Content Include="Imagenes\SliderFooter\VIQUA.png" />
     <Content Include="Imagenes\Slider\Slider1.png" />
     <Content Include="Imagenes\Slider\Slider1__.png" />
@@ -247,6 +291,12 @@
     <Content Include="Content\fonts\Roboto-Thin.ttf" />
     <Content Include="Content\fonts\Roboto-Thin.woff" />
     <Content Include="Content\fonts\Roboto-Thin.woff2" />
+    <Content Include="Imagenes\Producto\3 RESINAS ANIONICAS Y CATIONICAS.jpg" />
+    <Content Include="Imagenes\Producto\ABLANDADORES DE AGUA.jpg" />
+    <Content Include="Imagenes\Producto\EQUIPO UV POLARIS.jpg" />
+    <Content Include="Imagenes\Producto\MEMBRANA DE ÓSMOSIS HYDRON.jpg" />
+    <Content Include="Imagenes\Producto\OZONIZADOR DE AGUA.jpg" />
+    <Content Include="Imagenes\Producto\VÁLVULA AUTOMÁTICA PARA ABLANDADOR.jpg" />
     <None Include="Properties\PublishProfiles\PROQUIM - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\PROQUIM - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -301,7 +351,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

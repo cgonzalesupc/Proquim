@@ -1,18 +1,77 @@
 ﻿<script src="~/Scripts/jquery-3.4.1.js"></script>
+@{ 
+    string strListPaises = "";
+    int categoria = ViewBag.categoria;
+    var listCountry = MDBBlog.Models.Productos.ListProductos();
+    listCountry = listCountry.Where(q => q.categoria == categoria).ToList();
+    if (categoria == 1 || categoria == 2)
+    {
+        foreach (MDBBlog.Models.Productos.ProductosItems item in listCountry)
+        {
+            strListPaises += "<div class='col-md-3'>";
+            strListPaises += "<div class='card'>";
+            strListPaises += "<div class='body'>";
+            strListPaises += "<img src='../" + item.Ruta + "' class='img-fluid' alt='" + item.alt + "'/>";
+            strListPaises += "<div class='title'>" + item.Nombre + "</div>";
+            strListPaises += "</div></div></div>";
+        }
+    }
+    else if (categoria == 3 )
+    {
+        foreach (MDBBlog.Models.Productos.ProductosItems item in listCountry)
+        {
+            strListPaises += "<div class='col-md-12'>";
+            strListPaises += "<div class='card'>";
+            strListPaises += "<div class='body'>";
+            strListPaises += "<h3>"+ item.Nombre + "</h3>";
+            strListPaises += "<p>" + item.alt + "</p>";
+            strListPaises += "</div></div></div>";
+        }
+    }
+    else if (categoria == 4)
+    {
+        var listTitulos = MDBBlog.Models.Productos.ListProductosTitulos();
+        foreach (MDBBlog.Models.Productos.ProductosItemsTitulo itemx in listTitulos)
+        {
+            strListPaises += "<div class='col-md-12'>";
+            strListPaises += "<div class='card'>";
+            strListPaises += "<div class='body'>";
+            strListPaises += "<h3 style='color:blue;'>" + itemx.TituloPrincipal + "</h3>";
+
+
+
+            var listCountrySub = listCountry.Where(q => q.codigoTitulo == itemx.codigo).ToList();
+            foreach (MDBBlog.Models.Productos.ProductosItems item in listCountrySub)
+            {
+                strListPaises += "<h3>" + item.Nombre + "</h3>";
+                strListPaises += "<p>" + item.alt + "</p>";
+            }
+
+            strListPaises += "</div></div></div>";
+        }
+
+
+    }
+
+}
 
 <div class="container">
+    <br />
+    <br />
     <div class="row">
         <div class="col-md-3">
             <span>Productos</span>
             <ul>
-                <li><a target="_self"><span style="font-size:16px;">ATERIALES Y ACCESORIOS PARA TRATAMIENTO DE AGUA</span></a></li>
-                <li><a target="_self"><span style="font-size:16px;">INSTRUMENTOS DE MEDICION Y REACTIVOS QUIMICOS</span></a></li>
-                <li><a target="_self"><span style="font-size:16px;">PRODUCTOS QUIMICOS PARA EMBOTELLADORES</span></a></li>
-                <li><a target="_self"><span style="font-size:16px;">PRODUCTOS QUIMICOS PARA PISCINAS Y ALBERCAS</span></a></li>
+                <li><a href="/Home/Category?categoryID=1"><span style="font-size:16px;">MATERIALES Y ACCESORIOS PARA TRATAMIENTO DE AGUA</span></a></li>
+                <li><a href="/Home/Category?categoryID=2"><span style="font-size:16px;">INSTRUMENTOS DE MEDICION Y REACTIVOS QUIMICOS</span></a></li>
+                <li><a href="/Home/Category?categoryID=3"><span style="font-size:16px;">PRODUCTOS QUIMICOS PARA EMBOTELLADORES</span></a></li>
+                <li><a href="/Home/Category?categoryID=4"><span style="font-size:16px;">PRODUCTOS QUIMICOS PARA PISCINAS Y ALBERCAS</span></a></li>
             </ul>
         </div>
         <div class="col-md-9">
-
+            <div class="row clearfix">
+                @Html.Raw(strListPaises)
+            </div>
         </div>
     </div>
 </div>

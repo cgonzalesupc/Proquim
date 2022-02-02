@@ -27,8 +27,15 @@ namespace MDBBlog.Controllers
             return View();
         }
 
-        public ActionResult Category()
+        [Route("/Home/Category/{categoryID?}")]
+        public ActionResult Category(int? categoryID)
         {
+            int? cat = 1;
+            if (categoryID != null)
+            {
+                cat = categoryID;
+            }
+            ViewBag.categoria = cat;
             return View();
         }
         public ActionResult Category2()
