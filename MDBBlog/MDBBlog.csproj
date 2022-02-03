@@ -355,6 +355,7 @@
     <Content Include="Views\Home\IndexBK.cshtml" />
     <Content Include="Views\Home\About2.cshtml" />
     <Content Include="Views\Home\Contact2.cshtml" />
+    <Content Include="Views\Home\About3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
