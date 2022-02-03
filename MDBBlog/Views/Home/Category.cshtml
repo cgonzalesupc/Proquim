@@ -1,30 +1,47 @@
 ﻿<script src="~/Scripts/jquery-3.4.1.js"></script>
-@{ 
+@{
     string strListPaises = "";
     int categoria = ViewBag.categoria;
     var listCountry = MDBBlog.Models.Productos.ListProductos();
     listCountry = listCountry.Where(q => q.categoria == categoria).ToList();
+    string active1 = "", active2 = "", active3 = "", active4 = "";
+
+    switch (categoria)
+    {
+        case 1: active1 = "active"; break;
+        case 2: active2 = "active"; break;
+        case 3: active3 = "active"; break;
+        case 4: active4 = "active"; break;
+        default:
+            active1 = "active";
+            break;
+    }
+
     if (categoria == 1 || categoria == 2)
     {
+        int cont = 0;
         foreach (MDBBlog.Models.Productos.ProductosItems item in listCountry)
         {
-            strListPaises += "<div class='col-md-3'>";
-            strListPaises += "<div class='card'>";
+
+
+            strListPaises += "<div class='col-md-3 mb-4'>";
+            strListPaises += "<div class='card card-product'>";
             strListPaises += "<div class='body'>";
-            strListPaises += "<img src='../" + item.Ruta + "' class='img-fluid' alt='" + item.alt + "'/>";
+            strListPaises += "<img src='../" + item.Ruta + "' class='img-fluid img-product' alt='" + item.alt + "'/>";
             strListPaises += "<div class='title'>" + item.Nombre + "</div>";
             strListPaises += "</div></div></div>";
+            cont++;
         }
     }
-    else if (categoria == 3 )
+    else if (categoria == 3)
     {
         foreach (MDBBlog.Models.Productos.ProductosItems item in listCountry)
         {
             strListPaises += "<div class='col-md-12'>";
-            strListPaises += "<div class='card'>";
+            strListPaises += "<div class='card2'>";
             strListPaises += "<div class='body'>";
-            strListPaises += "<h3>"+ item.Nombre + "</h3>";
-            strListPaises += "<p>" + item.alt + "</p>";
+            strListPaises += "<h3>" + item.Nombre + "</h3>";
+            strListPaises += "<p class='text-justify'>" + item.alt + "</p>";
             strListPaises += "</div></div></div>";
         }
     }
@@ -34,9 +51,9 @@
         foreach (MDBBlog.Models.Productos.ProductosItemsTitulo itemx in listTitulos)
         {
             strListPaises += "<div class='col-md-12'>";
-            strListPaises += "<div class='card'>";
+            strListPaises += "<div class='card2'>";
             strListPaises += "<div class='body'>";
-            strListPaises += "<h3 style='color:blue;'>" + itemx.TituloPrincipal + "</h3>";
+            strListPaises += "<h3 class='title-main' >" + itemx.TituloPrincipal + "</h3>";
 
 
 
@@ -44,7 +61,7 @@
             foreach (MDBBlog.Models.Productos.ProductosItems item in listCountrySub)
             {
                 strListPaises += "<h3>" + item.Nombre + "</h3>";
-                strListPaises += "<p>" + item.alt + "</p>";
+                strListPaises += "<p class='text-justify'>" + item.alt + "</p>";
             }
 
             strListPaises += "</div></div></div>";
@@ -60,15 +77,54 @@
     <br />
     <div class="row">
         <div class="col-md-3">
-            <span>Productos</span>
-            <ul>
-                <li><a href="/Home/Category?categoryID=1"><span style="font-size:16px;">MATERIALES Y ACCESORIOS PARA TRATAMIENTO DE AGUA</span></a></li>
-                <li><a href="/Home/Category?categoryID=2"><span style="font-size:16px;">INSTRUMENTOS DE MEDICION Y REACTIVOS QUIMICOS</span></a></li>
-                <li><a href="/Home/Category?categoryID=3"><span style="font-size:16px;">PRODUCTOS QUIMICOS PARA EMBOTELLADORES</span></a></li>
-                <li><a href="/Home/Category?categoryID=4"><span style="font-size:16px;">PRODUCTOS QUIMICOS PARA PISCINAS Y ALBERCAS</span></a></li>
-            </ul>
+            <div class="block">
+                <span class="title-block">Productos</span>
+                <ul>
+                    <li>
+                        <a href="/Home/Category?categoryID=1" class="@active1">
+                            <i class="fa fa-angle-double-right"></i>
+                            <span style="/*font-size:16px;*/">MATERIALES Y ACCESORIOS PARA TRATAMIENTO DE AGUA</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Category?categoryID=2" class="@active2">
+                            <i class="fa fa-angle-double-right"></i>
+                            <span style="/*font-size:16px;*/">INSTRUMENTOS DE MEDICION Y REACTIVOS QUIMICOS</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Category?categoryID=3" class="@active3">
+                            <i class="fa fa-angle-double-right"></i>
+                            <span style="/*font-size:16px;*/">PRODUCTOS QUIMICOS PARA EMBOTELLADORES</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Category?categoryID=4" class="@active4">
+                            <i class="fa fa-angle-double-right"></i>
+                            <span style="/*font-size:16px;*/">PRODUCTOS QUIMICOS PARA PISCINAS Y ALBERCAS</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 product">
+            @if (categoria == 1)
+            {
+                <div class="navegacion"><a href="/Home/Index">Inicio</a> / <a href="#">Productos</a> / <strong>MATERIALES Y ACCESORIOS PARA TRATAMIENTO DE AGUA</strong></div>
+            }
+            else if (categoria == 2)
+            {
+                <div class="navegacion"><a href="/Home/Index">Inicio</a> / <a href="#">Productos</a> / <strong>INSTRUMENTOS DE MEDICION Y REACTIVOS QUIMICOS</strong></div>
+            }
+            else if (categoria == 3)
+            {
+                <div class="navegacion"><a href="/Home/Index">Inicio</a> / <a href="#">Productos</a> / <strong>PRODUCTOS QUIMICOS PARA EMBOTELLADORES</strong></div>
+            }
+            else if (categoria == 4)
+            {
+                <div class="navegacion"><a href="/Home/Index">Inicio</a> / <a href="#">Productos</a> / <strong>PRODUCTOS QUIMICOS PARA PISCINAS Y ALBERCAS</strong></div>
+            }
+
             <div class="row clearfix">
                 @Html.Raw(strListPaises)
             </div>
