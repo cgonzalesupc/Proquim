@@ -247,6 +247,12 @@
     <Content Include="Imagenes\Slider\Slider1_.jpg" />
     <Content Include="Imagenes\Slider\Slider2.jpg" />
     <Content Include="Imagenes\Slider\Slider3.jpg" />
+    <Content Include="Imagenes\Slider\slider_1.png" />
+    <Content Include="Imagenes\Slider\Slider_1x.png" />
+    <Content Include="Imagenes\Slider\slider_2.png" />
+    <Content Include="Imagenes\Slider\Slider_2x.png" />
+    <Content Include="Imagenes\Slider\slider_3.png" />
+    <Content Include="Imagenes\Slider\Slider_3x.png" />
     <Content Include="img\svg\arrow_left.svg" />
     <Content Include="img\svg\arrow_right.svg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -348,6 +354,7 @@
     <Content Include="Views\Home\Post.cshtml" />
     <Content Include="Views\Home\Category2.cshtml" />
     <Content Include="Views\Home\IndexBK.cshtml" />
+    <Content Include="Views\Home\Contact2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

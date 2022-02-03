@@ -26,7 +26,12 @@ namespace MDBBlog.Controllers
 
             return View();
         }
+        public ActionResult Contact2()
+        {
+            ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
         [Route("/Home/Category/{categoryID?}")]
         public ActionResult Category(int? categoryID)
         {
