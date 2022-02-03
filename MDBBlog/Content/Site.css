@@ -203,9 +203,9 @@ a, a:hover, a:focus {
 }
 
 #site-navigation .navbar-nav > a {
-    color: #1e73be;
+    color: #3ca9d1;
     padding: 10px 17px;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 #site-navigation .navbar-nav > a > span:after {
@@ -340,4 +340,11 @@ i.icon-contact {
 .text-contact{
     padding: 0 0 0 60px;
     /*font-size: 14px;*/
+}
+.fw500 {
+    font-weight: 500;
+}
+
+.fw700 {
+    font-weight: 700;
 }

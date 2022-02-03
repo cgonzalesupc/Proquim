@@ -168,6 +168,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Imagenes\Logo\logoPrincipal.jpg" />
     <Content Include="Imagenes\Logo\sprite-clean.png" />
+    <Content Include="Imagenes\Nosotros\about2.jpg" />
+    <Content Include="Imagenes\Nosotros\about3.jpeg" />
     <Content Include="Imagenes\Nosotros\person-holding-laboratory-flask-2280571.jpg" />
     <Content Include="Imagenes\NuestrosProductos\DESINCRUSTANTES, DESOXIDANTES Y NEUTRALIZANTES.jpg" />
     <Content Include="Imagenes\NuestrosProductos\DESINFECTANTES Y SANITIZANTES.jpg" />
@@ -247,11 +249,8 @@
     <Content Include="Imagenes\Slider\Slider1_.jpg" />
     <Content Include="Imagenes\Slider\Slider2.jpg" />
     <Content Include="Imagenes\Slider\Slider3.jpg" />
-    <Content Include="Imagenes\Slider\slider_1.png" />
     <Content Include="Imagenes\Slider\Slider_1x.png" />
-    <Content Include="Imagenes\Slider\slider_2.png" />
     <Content Include="Imagenes\Slider\Slider_2x.png" />
-    <Content Include="Imagenes\Slider\slider_3.png" />
     <Content Include="Imagenes\Slider\Slider_3x.png" />
     <Content Include="img\svg\arrow_left.svg" />
     <Content Include="img\svg\arrow_right.svg" />
@@ -354,6 +353,7 @@
     <Content Include="Views\Home\Post.cshtml" />
     <Content Include="Views\Home\Category2.cshtml" />
     <Content Include="Views\Home\IndexBK.cshtml" />
+    <Content Include="Views\Home\About2.cshtml" />
     <Content Include="Views\Home\Contact2.cshtml" />
   </ItemGroup>
   <ItemGroup>
