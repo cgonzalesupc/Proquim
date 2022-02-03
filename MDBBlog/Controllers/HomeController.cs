@@ -19,14 +19,30 @@ namespace MDBBlog.Controllers
 
             return View();
         }
+        public ActionResult About2()
+        {
+            ViewBag.Message = "Your application description page.";
 
+            return View();
+        }
+        public ActionResult About3()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
+        public ActionResult Contact2()
+        {
+            ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
         [Route("/Home/Category/{categoryID?}")]
         public ActionResult Category(int? categoryID)
         {
