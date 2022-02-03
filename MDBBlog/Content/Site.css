@@ -351,71 +351,79 @@ i.icon-contact {
 
 /* page product*/
 
-.block {
+
+.block .title-block {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 1.3em;
+    font-weight: 500;
 }
 
-    .block .title-block {
-        background-color: #000000;
-        color: #FFFFFF;
-        display: block;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-        font-size: 1.3em;
-        font-weight: 500;
-    }
+.block ul {
+    border: 1px solid #CCCCCC;
+    background-color: #F5F5F5;
+    padding-left: 0;
+    list-style-type: none;
+}
 
-    .block ul {
-        border: 1px solid #CCCCCC;
-        background-color: #F5F5F5;
-        padding-left: 0;
-        list-style-type: none;
-    }
+.block ul li {
+    border-bottom: 1px dotted #999999;
+    font-size: 0.9em;
+}
 
-        .block ul li {
-            border-bottom: 1px dotted #999999;
-            font-size: 0.9em;
-        }
+.block ul li a {
+    background-color: #F5F5F5;
+    color: #000000;
+    display: block;
+    padding: 10px 15px;
+    margin-top: 0px;
+    border-radius: 0px;
+    -webkit-transition: background-color .45s ease-out;
+    transition: background-color .45s ease-out;
+    font-size: 0.9rem;
+}
 
-            .block ul li a {
-                background-color: #F5F5F5;
-                color: #000000;
-                display: block;
-                padding: 10px 15px;
-                margin-top: 0px;
-                border-radius: 0px;
-                -webkit-transition: background-color .45s ease-out;
-                transition: background-color .45s ease-out;
-                font-size: 0.9rem;
-            }
+.block ul li a.active {
+    background-color: #3ca9d1;
+    color: #FFFFFF;
+    border-style: none;
+}
 
-                .block ul li a.active {
-                    background-color: #3ca9d1;
-                    color: #FFFFFF;
-                    border-style: none;
-                }
+.block ul li a:hover {
+    background-color: #3ca9d1;
+    color: #FFFFFF;
+    -webkit-transition: background-color .35s ease-out;
+    transition: background-color .35s ease-out;
+}
 
-                .block ul li a:hover {
-                    background-color: #3ca9d1;
-                    color: #FFFFFF;
-                    -webkit-transition: background-color .35s ease-out;
-                    transition: background-color .35s ease-out;
-                }
+.card .body{
+    position: relative;
+}
 
 .product .img-product {
-    height: 180px;
+    height: 220px;
     width: 100%;
 }
 
 .product .title {
-    padding: 20px 15px 0px;
+    padding: 10px;
     font-size: 0.9rem;
     text-align: center;
+    background-color: #3ca9d1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #FFFFFF;
+    display:none;
 }
 
-.product .card.card-product {
+/*.product .card.card-product {
     min-height: 265px;
-}
+}*/
 
 .navegacion {
     font-size: 0.9em;
