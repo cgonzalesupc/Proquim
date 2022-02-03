@@ -168,6 +168,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Imagenes\Logo\logoPrincipal.jpg" />
     <Content Include="Imagenes\Logo\sprite-clean.png" />
+    <Content Include="Imagenes\Nosotros\about2.jpg" />
+    <Content Include="Imagenes\Nosotros\about3.jpeg" />
     <Content Include="Imagenes\Nosotros\person-holding-laboratory-flask-2280571.jpg" />
     <Content Include="Imagenes\NuestrosProductos\DESINCRUSTANTES, DESOXIDANTES Y NEUTRALIZANTES.jpg" />
     <Content Include="Imagenes\NuestrosProductos\DESINFECTANTES Y SANITIZANTES.jpg" />
@@ -348,6 +350,7 @@
     <Content Include="Views\Home\Post.cshtml" />
     <Content Include="Views\Home\Category2.cshtml" />
     <Content Include="Views\Home\IndexBK.cshtml" />
+    <Content Include="Views\Home\About2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
