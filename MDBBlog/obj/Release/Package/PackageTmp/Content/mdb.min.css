@@ -7385,8 +7385,6 @@ a.btn:not([href]):not([tabindex]), a.btn:not([href]):not([tabindex]):focus, a.bt
 
     .navbar.navbar-light .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
         color: rgba(0,0,0,.7);
-        
-     
     }
 
 .navbar.navbar-light .breadcrumb .nav-item.active > .nav-link:hover, .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover, .navbar.navbar-light .navbar-toggler, .navbar.navbar-light form .md-form .form-control {
