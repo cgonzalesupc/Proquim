@@ -298,8 +298,8 @@ i.contact-info-widget {
     height: 100%;
 }
 
-.view {
-    height: calc(100vh - 150px);
+.view img.image_main {
+    height: calc(100vh - 150px) !important;
 }
 
 /* page about*/
@@ -405,20 +405,24 @@ i.icon-contact {
 }
 
 .product .img-product {
-    height: 220px;
+    height: 180px;
     width: 100%;
 }
 
 .product .title {
     padding: 10px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     text-align: center;
     background-color: #3ca9d1;
-    position: absolute;
-    bottom: 0;
+    /*position: absolute;
+    bottom: 0;*/
     width: 100%;
-    color: #FFFFFF;
-    display:none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.img-opacity-hover:hover {
+    opacity: 0.8;
 }
 
 /*.product .card.card-product {

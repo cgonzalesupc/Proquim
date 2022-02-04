@@ -20,7 +20,9 @@
 
     if (categoria == 1 || categoria == 2)
     {
-        int cont = 0;
+
+        listCountry = listCountry.OrderBy(o => o.orden).ToList();
+
         foreach (MDBBlog.Models.Productos.ProductosItems item in listCountry)
         {
 
@@ -28,10 +30,10 @@
             strListPaises += "<div class='col-md-3 mb-4'>";
             strListPaises += "<div class='card card-product'>";
             strListPaises += "<div class='body'>";
-            strListPaises += "<img src='../" + item.Ruta + "' class='img-fluid img-product' alt='" + item.alt + "'/>";
+            strListPaises += "<img src='../" + item.Ruta + "' class='img-fluid img-product img-opacity-hover' alt='" + item.alt + "'/>";
             strListPaises += "<div class='title'>" + item.Nombre + "</div>";
             strListPaises += "</div></div></div>";
-            cont++;
+
         }
     }
     else if (categoria == 3)
@@ -137,11 +139,11 @@
 
     $(document).ready(function () {
      
-        $(".card .body").mouseenter(function () {
-            $(this).find(".title").velocity("slideDown", { duration: 600 });
-        }).mouseleave(function () {
-            $(this).find(".title").velocity("slideUp", { duration: 600 });
-        });
+        //$(".card .body").mouseenter(function () {
+        //    $(this).find(".title").velocity("slideDown", { duration: 600 });
+        //}).mouseleave(function () {
+        //    $(this).find(".title").velocity("slideUp", { duration: 600 });
+        //});
 
     });
 </script>
