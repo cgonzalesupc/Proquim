@@ -250,8 +250,11 @@
     <Content Include="Imagenes\Slider\Slider2.jpg" />
     <Content Include="Imagenes\Slider\Slider3.jpg" />
     <Content Include="Imagenes\Slider\Slider_1x.png" />
+    <Content Include="Imagenes\Slider\Slider_1xx.png" />
     <Content Include="Imagenes\Slider\Slider_2x.png" />
+    <Content Include="Imagenes\Slider\Slider_2xx.png" />
     <Content Include="Imagenes\Slider\Slider_3x.png" />
+    <Content Include="Imagenes\Slider\Slider_3xx.png" />
     <Content Include="img\svg\arrow_left.svg" />
     <Content Include="img\svg\arrow_right.svg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
