@@ -204,19 +204,11 @@ namespace MDBBlog.Models
             });
             lista.Add(new ProductosItems()
             {
-                Nombre = "FILTROS",
-                alt = "FILTROS",
+                Nombre = "MANGUERAS DE POLIETILENO",
+                alt = "MANGUERAS DE POLIETILENO",
                 Ruta = "Imagenes/Producto/MANGUERAS DE POLIETILENO.jpg",
                 categoria = 1,
                 orden = 24
-            });
-            lista.Add(new ProductosItems()
-            {
-                Nombre = "FILTROS",
-                alt = "FILTROS",
-                Ruta = "Imagenes/Producto/MANGUERAS DE POLIETILENO.jpg",
-                categoria = 1,
-                orden = 25
             });
             lista.Add(new ProductosItems()
             {
@@ -240,7 +232,7 @@ namespace MDBBlog.Models
                 alt = "MEMBRANA DE ÓSMOSIS HIDROTEK",
                 Ruta = "Imagenes/Producto/MEMBRANA DE ÓSMOSIS HIDROTEK.jpg",
                 categoria = 1,
-                orden = 28
+                orden = 32
             });
             lista.Add(new ProductosItems()
             {
@@ -272,7 +264,7 @@ namespace MDBBlog.Models
                 alt = "PORTACARTUCHOS",
                 Ruta = "Imagenes/Producto/PORTACARTUCHOS.jpg",
                 categoria = 1,
-                orden = 32
+                orden = 28
             });
             lista.Add(new ProductosItems()
             {
@@ -304,7 +296,7 @@ namespace MDBBlog.Models
                 alt = "TOBERAS O DISTRIBUIDORES",
                 Ruta = "Imagenes/Producto/TOBERAS O DISTRIBUIDORES.jpg",
                 categoria = 1,
-                orden = 40
+                orden = 36
             });
             lista.Add(new ProductosItems()
             {
@@ -320,7 +312,7 @@ namespace MDBBlog.Models
                 alt = "VÁLVULA AUTOMÁTICA PARA ABLANDADOR",
                 Ruta = "Imagenes/Producto/VÁLVULA AUTOMÁTICA PARA ABLANDADOR.jpg",
                 categoria = 1,
-                orden = 38
+                orden = 40
             });
             lista.Add(new ProductosItems()
             {
@@ -336,7 +328,7 @@ namespace MDBBlog.Models
                 alt = "VÁLVULAS MANUALES PARA ABLANDADOR",
                 Ruta = "Imagenes/Producto/VÁLVULAS MANUALES PARA ABLANDADOR.png",
                 categoria = 1,
-                orden = 36
+                orden = 37
             });
             lista.Add(new ProductosItems()
             {
@@ -344,7 +336,7 @@ namespace MDBBlog.Models
                 alt = "VÁLVULAS MANUALES PARA FILTRO",
                 Ruta = "Imagenes/Producto/VÁLVULAS MANUALES PARA FILTRO.png",
                 categoria = 1,
-                orden = 37
+                orden = 38
             });
 
             lista.Add(new ProductosItems()
@@ -357,11 +349,11 @@ namespace MDBBlog.Models
             });
             lista.Add(new ProductosItems()
             {
-                Nombre = "INSTRUMENTOS DIGITALES",
-                alt = "INSTRUMENTOS DIGITALES",
+                Nombre = "INSTRUMENTOS DIGITALES MARCA HACH Y HANNA",
+                alt = "INSTRUMENTOS DIGITALES MARCA HACH Y HANNA",
                 Ruta = "Imagenes/Producto/INSTRUMENTOS DIGITALES.jpg",
                 categoria = 2,
-                orden = 2
+                orden = 9
             });
             lista.Add(new ProductosItems()
             {
@@ -369,7 +361,7 @@ namespace MDBBlog.Models
                 alt = "KITS PARA ANALISIS DE AGUA",
                 Ruta = "Imagenes/Producto/KITS PARA ANALISIS DE AGUA.jpg",
                 categoria = 2,
-                orden = 3
+                orden = 2
             });
             lista.Add(new ProductosItems()
             {
@@ -377,7 +369,7 @@ namespace MDBBlog.Models
                 alt = "PASTILLAS DPD 1",
                 Ruta = "Imagenes/Producto/PASTILLAS DPD 1.jpg",
                 categoria = 2,
-                orden = 4
+                orden = 3
             });
             lista.Add(new ProductosItems()
             {
@@ -385,7 +377,7 @@ namespace MDBBlog.Models
                 alt = "PASTILLAS ROJO FENOL",
                 Ruta = "Imagenes/Producto/PASTILLAS ROJO FENOL.jpg",
                 categoria = 2,
-                orden = 5
+                orden = 4
             });
             lista.Add(new ProductosItems()
             {
@@ -393,7 +385,7 @@ namespace MDBBlog.Models
                 alt = "REACTIVOS QUIMICOS",
                 Ruta = "Imagenes/Producto/REACTIVOS QUIMICOS.jpg",
                 categoria = 2,
-                orden = 6
+                orden = 5
             });
             lista.Add(new ProductosItems()
             {
@@ -401,7 +393,7 @@ namespace MDBBlog.Models
                 alt = "TEST DE CLORO LIBRE Y TOTAL  DPD",
                 Ruta = "Imagenes/Producto/TEST DE CLORO LIBRE Y TOTAL  DPD.jpg",
                 categoria = 2,
-                orden = 8
+                orden = 10
             });
             lista.Add(new ProductosItems()
             {
@@ -409,8 +401,55 @@ namespace MDBBlog.Models
                 alt = "TIRAS REACTIVAS",
                 Ruta = "Imagenes/Producto/TIRAS REACTIVAS.jpg",
                 categoria = 2,
+                orden = 6
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "INTRUMENTOS DE ENSAYO",
+                alt = "INTRUMENTOS DE ENSAYO",
+                Ruta = "Imagenes/Producto/5 INTRUMENTOS DE ENSAYO.jpg",
+                categoria = 2,
                 orden = 7
             });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "KIT MEDIDOR DE OZONO",
+                alt = "TKIT MEDIDOR DE OZONO",
+                Ruta = "Imagenes/Producto/5 KIT MEDIDOR DE OZONO.jpg",
+                categoria = 2,
+                orden = 8
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "MEDIDOR pH Y CONDUCTIVIDAD",
+                alt = "MEDIDOR pH Y CONDUCTIVIDAD",
+                Ruta = "Imagenes/Producto/5 MEDIDOR pH Y CONDUCTIVIDAD.jpg",
+                categoria = 2,
+                orden = 12
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "PAPEL INDICADOR DE pH",
+                alt = "PAPEL INDICADOR DE pH",
+                Ruta = "Imagenes/Producto/5 PAPEL INDICADOR DE pH.jpg",
+                categoria = 2,
+                orden = 13
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "TIRAS REACTIVAS- ACIDO PERACÉTICO",
+                alt = "TIRAS REACTIVAS- ACIDO PERACÉTICO",
+                Ruta = "Imagenes/Producto/5 TIRAS REACTIVAS- ACIDO PERACÉTICO.jpg",
+                categoria = 2,
+                orden = 11
+            });
+
+
 
             lista.Add(new ProductosItems()
             {
@@ -587,7 +626,7 @@ namespace MDBBlog.Models
             });
             lista.Add(new ProductosItems()
             {
-                Nombre = "PEROXITANE-15AP",
+                Nombre = "PROXITANE-15AP",
                 alt = "Ácido Peracético al 15%",
                 categoria = 4,
                 codigoTitulo = 3
@@ -599,6 +638,44 @@ namespace MDBBlog.Models
                 categoria = 4,
                 codigoTitulo = 3
             });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "BRILTPLAST",
+                alt = "Producto líquido abrillantador de envases plásticos PET, PVC o policarbonato donde se almacena y traslada agua de mesa para consumo humano.",
+                categoria = 4,
+                codigoTitulo = 4
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "OSMO-PLUSS 0100",
+                alt = "Es un anti-incrustante, que se utiliza en los sistemas de Ósmosis Inversa, para mantener en suspensión las sales de carbonato de calcio y de magnesio, hidróxidos metálicos y sales de metales pesados que contiene el agua, evitando que estas se depositen sobre la superficie de las membranas, las cuales causarían incrustaciones y como tal reducción en la cantidad y calidad de agua como producto.",
+                categoria = 4,
+                codigoTitulo = 5
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "DESINCRUST",
+                alt = "Producto líquido de raíz ácida. Se utiliza para realizar una limpieza química de desincrustación y remoción de sales y materia orgánica de las membranas osmóticas, con la finalidad de mantenerlas en buen estado de operación y conservarlas por largos periodos.",
+                categoria = 4,
+                codigoTitulo = 5
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "OSMOKAL",
+                alt = "Producto líquido alcalino. Se emplea en la limpieza profunda de las membranas de los equipos de Osmosis Inversa, en un segundo paso. Para una limpieza normal de membranas, emplear una solución al 2 % del producto, preparado con agua osmotizada.",
+                categoria = 4,
+                codigoTitulo = 5
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "",
+                alt = "-CEPILLOS PARA LAVADO </br>-FILTROS CARTUCHOS DE SEDIMENTOS </br>-FILTROS CARTUCHOS DE CARBON ACTIVADO </br>-ACCESORIOS Y REPUESTOS VARIOS </br>-VER RUBRO MATERIALES Y ACCESORIOS PARA TRATAMIENTO DE AGUA",
+                categoria = 4,
+                codigoTitulo = 6
+            });
+
 
             return lista;
         }

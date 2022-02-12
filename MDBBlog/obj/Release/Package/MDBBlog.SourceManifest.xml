@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="D:\ProyectosNet\MDBBlog-master\MDBBlog-master\MDBBlog\obj\Release\Package\PackageTmp" />
-  <setAcl path="D:\ProyectosNet\MDBBlog-master\MDBBlog-master\MDBBlog\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="D:\ProyectosNet\MDBBlog-master\MDBBlog-master\MDBBlog\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="D:\CesarGonzales_Informacion\Freelancer\Ozono\Proyecto\Proquim\MDBBlog\obj\Release\Package\PackageTmp" />
+  <setAcl path="D:\CesarGonzales_Informacion\Freelancer\Ozono\Proyecto\Proquim\MDBBlog\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\CesarGonzales_Informacion\Freelancer\Ozono\Proyecto\Proquim\MDBBlog\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

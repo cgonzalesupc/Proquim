@@ -456,7 +456,7 @@ i.icon-contact {
 
 .card2 h3 {
     font-size: 1.4em;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 5px;
     padding-bottom: 5px;
     padding-top: 10px;
@@ -467,5 +467,5 @@ i.icon-contact {
 .card2 .title-main {
     border-bottom: 1px dotted #999999;
     color: #3ca9d1;
-    font-weight: bold;
+    font-weight: 700;
 }
