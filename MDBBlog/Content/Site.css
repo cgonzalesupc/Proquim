@@ -194,7 +194,7 @@ a, a:hover, a:focus {
 
 .nav-menu{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 #site-navigation .navbar-nav > a.active,
@@ -468,4 +468,13 @@ i.icon-contact {
     border-bottom: 1px dotted #999999;
     color: #3ca9d1;
     font-weight: 700;
+}
+
+.lbl-company-name {
+    font-size: 15px;
+    position: absolute;
+    left: 12%;
+    bottom: -3%;
+    font-weight: 600;
+    color: #63453b;
 }
