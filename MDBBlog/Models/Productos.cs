@@ -677,6 +677,309 @@ namespace MDBBlog.Models
             });
 
 
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 50
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN REGULADORA BUFFER PH-10",
+                alt = "D-1",
+                categoria = 9,
+                codigoTitulo = 50
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN INDICADORA DE NEGRO DE ERIOCROMO T       (=)",
+                alt = "D-2",
+                categoria = 9,
+                codigoTitulo = 50
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO INDICADOR EN POLVO DE NEGRO DE ERIOCROMO T   (=)",
+                alt = "D-2",
+                categoria = 9,
+                codigoTitulo = 50
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN TITULANTE DE E.D.T.A 0.02 N",
+                alt = "D-3",
+                categoria = 9,
+                codigoTitulo = 50
+            });
+
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 51
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN REGULADORA 0.1 N",
+                alt = "CA-1",
+                categoria = 9,
+                codigoTitulo = 51
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO INDICADOR EN POLVO DE MUREXIDA",
+                alt = "CA-2",
+                categoria = 9,
+                codigoTitulo = 51
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN TITULANTE DE E.D.T.A 0.02 N",
+                alt = "CA-3",
+                categoria = 9,
+                codigoTitulo = 51
+            });
+
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 52
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN INDICADORA DE FENOLFTALEINA AL 1.0%",
+                alt = "A-1",
+                categoria = 9,
+                codigoTitulo = 52
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN DE INDICADOR MIXTO           (=)",
+                alt = "A-2",
+                categoria = 9,
+                codigoTitulo = 52
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN DE ANARANJADO DE METILO           (=)",
+                alt = "A-2",
+                categoria = 9,
+                codigoTitulo = 52
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN TITULANTE DE ÁCIDO 0.02 N",
+                alt = "A-3",
+                categoria = 9,
+                codigoTitulo = 52
+            });
+
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 53
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN REGULADORA ÁCIDA 1.0 N",
+                alt = "S-1",
+                categoria = 9,
+                codigoTitulo = 53
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN INDICADORA DE ALMIDÓN AL 1.0 %",
+                alt = "S-2",
+                categoria = 9,
+                codigoTitulo = 53
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN TITULANTE DE IODATO / IODURO DE POTASIO 0.0125 N",
+                alt = "S-3",
+                categoria = 9,
+                codigoTitulo = 53
+            });
+
+
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 54
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN REGULADORA ÁCIDA 0.05 N",
+                alt = "C-1",
+                categoria = 9,
+                codigoTitulo = 54
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN INDICADORA DE CROMATO DE POTASIO AL 5.0 %",
+                alt = "C-2",
+                categoria = 9,
+                codigoTitulo = 54
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN TITULANTE DE NITRATO DE PLATA 0.0171 N",
+                alt = "C-3",
+                categoria = 9,
+                codigoTitulo = 54
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 55
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN INDICADORA DE FENOLFTALEINA L 1.0%",
+                alt = "AT-1",
+                categoria = 9,
+                codigoTitulo = 55
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN TITULANTE DE HIDRÓXIDO DE POTASIO 0.1 N           (=)",
+                alt = "AT-2",
+                categoria = 9,
+                codigoTitulo = 55
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN TITULANTE ALCALINA 0.1 N           (=)",
+                alt = "AT-2",
+                categoria = 9,
+                codigoTitulo = 55
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 56
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN REACTIVA INDIRECTA CLORO-1",
+                alt = "CL-1",
+                categoria = 9,
+                codigoTitulo = 56
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN REGULADORA DE PH CLORO-2",
+                alt = "CL-2",
+                categoria = 9,
+                codigoTitulo = 56
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN INDICADORA CLORO-3",
+                alt = "CL-3",
+                categoria = 9,
+                codigoTitulo = 56
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN TITULANTE CLORO-4CL",
+                alt = "CL-4",
+                categoria = 9,
+                codigoTitulo = 56
+            });
+
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 57
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN DE ÁCIDO ACÉTICO Q.P.",
+                alt = "DCL-1",
+                categoria = 9,
+                codigoTitulo = 57
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN DE IODURO DE POTASIO",
+                alt = "DCL-2",
+                categoria = 9,
+                codigoTitulo = 57
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN INDICADORA DE ALMIDÓN",
+                alt = "DCL-3",
+                categoria = 9,
+                codigoTitulo = 57
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN DE TIOSULFATO DE SODIO",
+                alt = "DCL-4",
+                categoria = 9,
+                codigoTitulo = 57
+            });
+
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "REACTIVO",
+                alt = "CÓDIGO",
+                categoria = 9,
+                codigoTitulo = 58
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN DE ÁCIDO FOSFÓRICO Q.P.",
+                alt = "PH-1",
+                categoria = 9,
+                codigoTitulo = 58
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN DE IODURO DE POTASIO",
+                alt = "PH-2",
+                categoria = 9,
+                codigoTitulo = 58
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN INDICADORA DE ALMIDÓN",
+                alt = "PH-3",
+                categoria = 9,
+                codigoTitulo = 58
+            });
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "SOLUCIÓN DE TIOSULFATO DE SODIO",
+                alt = "PH-4",
+                categoria = 9,
+                codigoTitulo = 58
+            });
+
             return lista;
         }
         public static List<ProductosItemsTitulo> ListProductosTitulos()
@@ -718,6 +1021,67 @@ namespace MDBBlog.Models
                 TituloPrincipal = "ACCESORIOS Y PRODUCTOS VARIOS:",
                 codigo = 6,
                 orden = 6
+            });
+
+            return lista;
+        }
+        public static List<ProductosItemsTitulo> ListProductosReactivos()
+        {
+            List<ProductosItemsTitulo> lista = new List<ProductosItemsTitulo>();
+
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE DUREZA TOTAL EN AGUAS",
+                codigo = 50,
+                orden = 1
+            });
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE DUREZA CALCICA EN AGUAS",
+                codigo = 51,
+                orden = 2
+            });
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE ALCALINIDADES EN AGUAS",
+                codigo = 52,
+                orden = 3
+            });
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE SULFITOS EN AGUAS",
+                codigo = 53,
+                orden = 4
+            });
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE CLORUROS EN AGUAS",
+                codigo = 54,
+                orden = 5
+            });
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE ACIDEZ TITULABLE",
+                codigo = 55,
+                orden = 6
+            });
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE CLORO ACTIVO",
+                codigo = 56,
+                orden = 7
+            });
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE DIOXIDO DE CLORO",
+                codigo = 57,
+                orden = 8
+            });
+            lista.Add(new ProductosItemsTitulo()
+            {
+                TituloPrincipal = "DETERMINACIÓN DE PERÓXIDO DE HIDRÓGENO",
+                codigo = 58,
+                orden = 9
             });
 
             return lista;

@@ -18,7 +18,7 @@
             break;
     }
 
-    if (categoria == 1 || categoria == 2)
+    if (categoria == 1)
     {
 
         listCountry = listCountry.OrderBy(o => o.orden).ToList();
@@ -34,6 +34,42 @@
             strListPaises += "<div class='title'>" + item.Nombre + "</div>";
             strListPaises += "</div></div></div>";
 
+        }
+    }
+    else if ( categoria == 2)
+    {
+
+        listCountry = listCountry.OrderBy(o => o.orden).ToList();
+
+        foreach (MDBBlog.Models.Productos.ProductosItems item in listCountry)
+        {
+
+
+            strListPaises += "<div class='col-md-2 mb-4'>";
+            strListPaises += "<div class='card card-product'>";
+            strListPaises += "<div class='body'>";
+            strListPaises += "<img src='../" + item.Ruta + "' class='img-fluid img-product img-opacity-hover' alt='" + item.alt + "'/>";
+            strListPaises += "<div class='title'>" + item.Nombre + "</div>";
+            strListPaises += "</div></div></div>";
+
+        }
+        var listTitulos = MDBBlog.Models.Productos.ListProductosReactivos();
+
+        foreach (MDBBlog.Models.Productos.ProductosItemsTitulo itemx in listTitulos)
+        {
+            strListPaises += "<div class='col-md-12'>";
+            strListPaises += "<h3 class='title-main' >" + itemx.TituloPrincipal + "</h3>";
+
+            var listReactivo = MDBBlog.Models.Productos.ListProductos();
+            listReactivo = listReactivo.Where(q => q.categoria == 9).ToList();
+            var listCountrySub = listReactivo.Where(q => q.codigoTitulo == itemx.codigo).ToList();
+            foreach (MDBBlog.Models.Productos.ProductosItems item in listCountrySub)
+            {
+                strListPaises += "<div class='col-md-9'><p>" + item.Nombre + "</p></div>";
+                strListPaises += "<div class='col-md-3'><p>" + item.alt + "</p></div>";
+            }
+
+            strListPaises += "</div>";
         }
     }
     else if (categoria == 3)
