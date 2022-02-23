@@ -55,21 +55,53 @@
         }
         var listTitulos = MDBBlog.Models.Productos.ListProductosReactivos();
 
-        foreach (MDBBlog.Models.Productos.ProductosItemsTitulo itemx in listTitulos)
-        {
-            strListPaises += "<div class='col-md-12'>";
-            strListPaises += "<h3 class='title-main' >" + itemx.TituloPrincipal + "</h3>";
+        //foreach (MDBBlog.Models.Productos.ProductosItemsTitulo itemx in listTitulos)
+        //{
+        //    strListPaises += "<div class='col-md-12'>";
+        //    strListPaises += "<h3 class='title-main' >" + itemx.TituloPrincipal + "</h3>";
 
-            var listReactivo = MDBBlog.Models.Productos.ListProductos();
-            listReactivo = listReactivo.Where(q => q.categoria == 9).ToList();
-            var listCountrySub = listReactivo.Where(q => q.codigoTitulo == itemx.codigo).ToList();
-            foreach (MDBBlog.Models.Productos.ProductosItems item in listCountrySub)
+        //    var listReactivo = MDBBlog.Models.Productos.ListProductos();
+        //    listReactivo = listReactivo.Where(q => q.categoria == 9).ToList();
+        //    var listCountrySub = listReactivo.Where(q => q.codigoTitulo == itemx.codigo).ToList();
+        //    foreach (MDBBlog.Models.Productos.ProductosItems item in listCountrySub)
+        //    {
+        //        strListPaises += "<div class='row'><div class='col-md-9'><p>" + item.Nombre + "</p></div>";
+        //        strListPaises += "<div class='col-md-3'><p>" + item.alt + "</p></div> </div>";
+        //    }
+
+        //    strListPaises += "</div>";
+        //}
+
+        if (listTitulos.Count() > 0) {
+            strListPaises += "<table class='table table-category'>";
+            foreach (MDBBlog.Models.Productos.ProductosItemsTitulo itemx in listTitulos)
             {
-                strListPaises += "<div class='row'><div class='col-md-9'><p>" + item.Nombre + "</p></div>";
-                strListPaises += "<div class='col-md-3'><p>" + item.alt + "</p></div> </div>";
-            }
+                strListPaises += "<tr class='table-title'>";
+                strListPaises += "<td colspan='2' >" + itemx.TituloPrincipal + "</td>";
+                strListPaises += "</tr>";
 
-            strListPaises += "</div>";
+                var listReactivo = MDBBlog.Models.Productos.ListProductos();
+                listReactivo = listReactivo.Where(q => q.categoria == 9).ToList();
+                var listCountrySub = listReactivo.Where(q => q.codigoTitulo == itemx.codigo).ToList();
+                foreach (MDBBlog.Models.Productos.ProductosItems item in listCountrySub)
+                {
+                    if(item.orden == 1)
+                    {
+                        strListPaises += "<tr class='table-subtitle'>";
+                    }
+                    else
+                    {
+                        strListPaises += "<tr class=''>";
+                    }
+
+                    strListPaises += "<td >" + item.Nombre + "</td>";
+                    strListPaises += "<td >" + item.alt + "</td>";
+                    strListPaises += "</tr>";
+                }
+
+
+            }
+            strListPaises += "</table>";
         }
     }
     else if (categoria == 3)
@@ -166,6 +198,24 @@
 
             <div class="row clearfix">
                 @Html.Raw(strListPaises)
+                
+                    @*<table class="table table-category" style="display:none;">
+                        <tr class="table-title">
+                            <td colspan="2">DETERMINACIÓN DE DUREZA TOTAL EN AGUAS</td>
+                        </tr>
+                        <tr class="table-subtitle">
+                            <td>REACTIVO</td>
+                            <td>CÓDIGO</td>
+                        </tr>
+                        <tr>
+                            <td>SOLUCIÓN REGULADORA BUFFER PH-10</td>
+                            <td>D-1</td>
+                        </tr>
+                        <tr>
+                            <td>SOLUCIÓN REGULADORA BUFFER PH-10</td>
+                            <td>D-1</td>
+                        </tr>
+                    </table>*@              
             </div>
         </div>
     </div>

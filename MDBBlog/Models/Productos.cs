@@ -682,7 +682,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 50
+                codigoTitulo = 50,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {
@@ -719,7 +720,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 51
+                codigoTitulo = 51,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {
@@ -749,7 +751,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 52
+                codigoTitulo = 52,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {
@@ -786,7 +789,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 53
+                codigoTitulo = 53,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {
@@ -817,7 +821,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 54
+                codigoTitulo = 54,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {
@@ -846,7 +851,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 55
+                codigoTitulo = 55,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {
@@ -875,7 +881,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 56
+                codigoTitulo = 56,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {
@@ -912,7 +919,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 57
+                codigoTitulo = 57,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {
@@ -949,7 +957,8 @@ namespace MDBBlog.Models
                 Nombre = "REACTIVO",
                 alt = "CÓDIGO",
                 categoria = 9,
-                codigoTitulo = 58
+                codigoTitulo = 58,
+                orden = 1
             });
             lista.Add(new ProductosItems()
             {

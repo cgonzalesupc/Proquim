@@ -472,9 +472,29 @@ i.icon-contact {
 
 .lbl-company-name {
     font-size: 15px;
-    position: absolute;
+    /*position: absolute;
     left: 12%;
-    bottom: -3%;
+    bottom: -3%;*/
     font-weight: 600;
     color: #63453b;
+    margin-top: -12px;
+    padding-left: 8px;
+}
+
+.table-category.table td {
+    border: 1px solid #949699;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.table-category.table .table-title td {
+    color: #3ca9d1;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.table-category.table .table-subtitle td {
+    font-weight: bold;
 }
