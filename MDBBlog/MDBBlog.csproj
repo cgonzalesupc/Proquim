@@ -166,6 +166,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Imagenes\fondo\background-web3-01.jpg" />
     <Content Include="Imagenes\Logo\logoPrincipal.jpg" />
     <Content Include="Imagenes\Logo\sprite-clean.png" />
     <Content Include="Imagenes\Nosotros\about2.jpg" />

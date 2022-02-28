@@ -509,6 +509,10 @@ i.icon-contact {
     padding: 20px 20px;
 }
 
+.img-marca {
+    max-height: 80px
+}
+
 @media (min-width: 700px) {
     .product .img-product {
         width: 100%;
@@ -536,6 +540,11 @@ i.icon-contact {
 
     .body-center, .valores-title {
         text-align: center;
+    }
+
+    .table-category{
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
 }
