@@ -168,6 +168,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Imagenes\fondo\background-web3-01.jpg" />
     <Content Include="Imagenes\Logo\logoPrincipal.jpg" />
+    <Content Include="Imagenes\Logo\logo_new_4k.jpeg" />
+    <Content Include="Imagenes\Logo\logo_new_4k1.jpeg" />
     <Content Include="Imagenes\Logo\sprite-clean.png" />
     <Content Include="Imagenes\Nosotros\about2.jpg" />
     <Content Include="Imagenes\Nosotros\about3.jpeg" />
@@ -181,6 +183,7 @@
     <Content Include="Imagenes\NuestrosProductos\PROTECTORES Y ACONDICIONADORES.jpg" />
     <Content Include="Imagenes\NuestrosProductos\SOLVENTES Y DESENGRASANTES.jpg" />
     <Content Include="Imagenes\NuestrosProductos\TRATAMIENTO DE AGUA DE CALDERO.jpg" />
+    <Content Include="Imagenes\Producto\1413.jpeg" />
     <Content Include="Imagenes\Producto\3 CARBON ACTIVADO.jpg" />
     <Content Include="Imagenes\Producto\3 HIPOCLORITO DE CALCIO.jpg" />
     <Content Include="Imagenes\Producto\3 Sulfato DE ALUMINA TIPO A.png" />
@@ -217,6 +220,9 @@
     <Content Include="Imagenes\Producto\MEMBRANA DE ÓSMOSIS TORAY.jpg" />
     <Content Include="Imagenes\Producto\PASTILLAS DPD 1.jpg" />
     <Content Include="Imagenes\Producto\PASTILLAS ROJO FENOL.jpg" />
+    <Content Include="Imagenes\Producto\Ph101.jpeg" />
+    <Content Include="Imagenes\Producto\Ph401.jpeg" />
+    <Content Include="Imagenes\Producto\Ph701.jpeg" />
     <Content Include="Imagenes\Producto\PORTACARTUCHOS.jpg" />
     <Content Include="Imagenes\Producto\PORTAMEMBRANAS ACERO INOXIDABLE.jpg" />
     <Content Include="Imagenes\Producto\PORTAMEMBRANAS FRP.jpg" />
@@ -250,6 +256,12 @@
     <Content Include="Imagenes\SliderFooter\TORAY2.png" />
     <Content Include="Imagenes\SliderFooter\TRUWATER.png" />
     <Content Include="Imagenes\SliderFooter\VIQUA.png" />
+    <Content Include="Imagenes\Slider\banner1_4k.jpg" />
+    <Content Include="Imagenes\Slider\banner2_4k.jpg" />
+    <Content Include="Imagenes\Slider\banner2_4k1.jpeg" />
+    <Content Include="Imagenes\Slider\banner3_4k1.jpeg" />
+    <Content Include="Imagenes\Slider\banner3_4k.jpg" />
+    <Content Include="Imagenes\Slider\banner4_4k1.jpeg" />
     <Content Include="Imagenes\Slider\Slider1.png" />
     <Content Include="Imagenes\Slider\Slider1__.png" />
     <Content Include="Imagenes\Slider\Slider1_.jpg" />
@@ -264,6 +276,7 @@
     <Content Include="Imagenes\Slider\Slider_3xx.png" />
     <Content Include="img\svg\arrow_left.svg" />
     <Content Include="img\svg\arrow_right.svg" />
+    <Content Include="img\svg\img_wp.svg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -400,7 +413,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>55760</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44398/</IISUrl>
+          <IISUrl>https://localhost:44330/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -355,6 +355,7 @@ namespace MDBBlog.Models
                 categoria = 2,
                 orden = 9
             });
+
             lista.Add(new ProductosItems()
             {
                 Nombre = "KITS PARA ANALISIS DE AGUA",
@@ -449,6 +450,42 @@ namespace MDBBlog.Models
                 orden = 11
             });
 
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "1413",
+                alt = "1413",
+                Ruta = "Imagenes/Producto/1413.jpeg",
+                categoria = 2,
+                orden = 14
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "Ph101",
+                alt = "Ph101",
+                Ruta = "Imagenes/Producto/Ph101.jpeg",
+                categoria = 2,
+                orden = 15
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "Ph401",
+                alt = "Ph401",
+                Ruta = "Imagenes/Producto/Ph401.jpeg",
+                categoria = 2,
+                orden = 16
+            });
+
+            lista.Add(new ProductosItems()
+            {
+                Nombre = "Ph701",
+                alt = "Ph701",
+                Ruta = "Imagenes/Producto/Ph701.jpeg",
+                categoria = 2,
+                orden = 17
+            });
+
 
 
             lista.Add(new ProductosItems()
@@ -468,7 +505,7 @@ namespace MDBBlog.Models
             lista.Add(new ProductosItems()
             {
                 Nombre = "CHEMFLOX-FI",
-                alt = "Producto sólido granulado coagulante, clarificante de aguas turbias superficiales. Con agentes reguladores de pH.	",
+                alt = "Producto sólido granulado coagulante, clarificante de aguas turbias superficiales. Con agentes reguladores de pH.",
                 Ruta = "",
                 categoria = 3
             });

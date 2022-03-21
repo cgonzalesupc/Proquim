@@ -11,8 +11,8 @@
     {
         case 1: active1 = "active"; break;
         case 2: active2 = "active"; break;
-        case 3: active3 = "active"; break;
-        case 4: active4 = "active"; break;
+        case 3: active4 = "active"; break;
+        case 4: active3 = "active"; break;
         default:
             active1 = "active";
             break;
@@ -29,7 +29,7 @@
 
             strListPaises += "<div class='col-md-3 mb-4'>";
             strListPaises += "<div class='card card-product'>";
-            strListPaises += "<div class='body'>";
+            strListPaises += "<div class='body body-center'>";
             strListPaises += "<img src='../" + item.Ruta + "' class='img-fluid img-product img-opacity-hover' alt='" + item.alt + "'/>";
             strListPaises += "<div class='title'>" + item.Nombre + "</div>";
             strListPaises += "</div></div></div>";
@@ -47,7 +47,7 @@
 
             strListPaises += "<div class='col-md-3 mb-4'>";
             strListPaises += "<div class='card card-product'>";
-            strListPaises += "<div class='body'>";
+            strListPaises += "<div class='body body-center'>";
             strListPaises += "<img src='../" + item.Ruta + "' class='img-fluid img-product img-opacity-hover' alt='" + item.alt + "'/>";
             strListPaises += "<div class='title'>" + item.Nombre + "</div>";
             strListPaises += "</div></div></div>";
@@ -149,7 +149,7 @@
     <div class="row">
         <div class="col-md-3">
             <div class="block">
-                <span class="title-block fw500" style="background-color: rgba(0,0,0,.2);color:#000000;">Productos</span>
+                <span class="title-block fw500" style="background-color: rgba(0,0,0,.2);color:#000000;">PRODUCTOS</span>
                 <ul>
                     <li>
                         <a href="/Home/Category?categoryID=1" class="@active1">
@@ -164,15 +164,15 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/Home/Category?categoryID=3" class="@active3">
+                        <a href="/Home/Category?categoryID=4" class="@active3">
                             <i class="fa fa-angle-double-right"></i>
-                            <span style="font-weight:400">PRODUCTOS QUIMICOS PARA EMBOTELLADORES</span>
+                            <span style="font-weight:400">QUIMICOS PARA EMBOTELLADORES</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/Home/Category?categoryID=4" class="@active4">
+                        <a href="/Home/Category?categoryID=3" class="@active4">
                             <i class="fa fa-angle-double-right"></i>
-                            <span style="font-weight:400">PRODUCTOS QUIMICOS PARA PISCINAS Y ALBERCAS</span>
+                            <span style="font-weight:400">QUIMICOS PARA PISCINAS Y ALBERCAS</span>
                         </a>
                     </li>
                 </ul>
@@ -187,11 +187,11 @@
             {
                 <div class="navegacion"><a href="/Home/Index">Inicio</a> / <a href="#">Productos</a> / <strong>INSTRUMENTOS DE MEDICION Y REACTIVOS QUIMICOS</strong></div>
             }
-            else if (categoria == 3)
+            else if (categoria == 4)
             {
                 <div class="navegacion"><a href="/Home/Index">Inicio</a> / <a href="#">Productos</a> / <strong>PRODUCTOS QUIMICOS PARA EMBOTELLADORES</strong></div>
             }
-            else if (categoria == 4)
+            else if (categoria == 3)
             {
                 <div class="navegacion"><a href="/Home/Index">Inicio</a> / <a href="#">Productos</a> / <strong>PRODUCTOS QUIMICOS PARA PISCINAS Y ALBERCAS</strong></div>
             }

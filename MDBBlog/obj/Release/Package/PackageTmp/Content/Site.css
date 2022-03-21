@@ -198,17 +198,21 @@ a, a:hover, a:focus {
 }
 
 #site-navigation .navbar-nav > a.active,
-#site-navigation .navbar-nav > a:hover {
+#site-navigation .navbar-nav > a:hover,
+#site-navigation2 .navbar-nav > a.active,
+#site-navigation2 .navbar-nav > a:hover {
     color: #000000;
 }
 
-#site-navigation .navbar-nav > a {
+#site-navigation .navbar-nav > a,
+#site-navigation2 .navbar-nav > a {
     color: #3ca9d1;
     padding: 10px 17px;
     text-transform: uppercase;
 }
 
-#site-navigation .navbar-nav > a > span:after {
+#site-navigation .navbar-nav > a > span:after,
+#site-navigation2 .navbar-nav > a > span:after{
     position: absolute;
     bottom: 9%;
     left: 0;
@@ -223,7 +227,8 @@ a, a:hover, a:focus {
     transform: translateY(10px);
 }
 
-#site-navigation .navbar-nav > a:hover > span:after {
+#site-navigation .navbar-nav > a:hover > span:after,
+#site-navigation2 .navbar-nav > a:hover > span:after{
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -298,13 +303,18 @@ i.contact-info-widget {
     height: 100%;
 }
 
-.view img.image_main {
-    height: calc(100vh - 150px) !important;
+
+
+.skitter .info_slide_dots {
+    bottom: 10px!important;
 }
 
+.skitter-clean .info_slide_dots .image_number {
+    width: 10px !important;
+    height: 10px !important;
+}
 /* page about*/
-
-.page-header-title{
+.page-header-title {
     font-family: Arial,Helvetica,sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -406,7 +416,7 @@ i.icon-contact {
 
 .product .img-product {
     height: 180px;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .product .title {
@@ -497,4 +507,61 @@ i.icon-contact {
 
 .table-category.table .table-subtitle td {
     font-weight: bold;
+}
+
+.container-about {
+    background-color: #f5faf7;
+    padding: 20px 20px;
+}
+
+.img-marca {
+    max-height: 80px
+}
+
+@media (min-width: 700px) {
+    .product .img-product {
+        width: 100%;
+    }
+
+    .container-about {
+        display: flex;
+    }
+
+    .container-vision {
+        padding-left: 3rem !important;
+    }
+
+    .valores-container{
+        text-align:center !important;
+    }
+
+    .view img.image_main {
+        /*height: calc(100vh - 150px) !important;*/
+        height: calc(100vh - 180px) !important;
+    }
+
+    #site-navigation2 {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .body-center, .valores-title {
+        text-align: center;
+    }
+
+    .table-category{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #site-navigation {
+        display: none;
+    }
+
+    .skitter.with-dots{
+        margin-bottom:0px !important;
+    }
+
 }
